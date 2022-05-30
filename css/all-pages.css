@@ -1,8 +1,34 @@
+:root {
+    --white: #ffffff;
+    --gray1: #333333;
+    --gray2: #555555;
+    --gray3: #cccccc;
+    --gray4: #aaaaaa;
+  
+    --black: #080808;
+    --teal: #006060;
+    --lightteal: #008080;
+    --purple: #800080;
+    --navy: #000080;
+    --cyan: #17a2b8;
+    --violetred: #c71585;
+    --red: #ff0000;
+    --orange: #ffa500;
+    --green: #006400;
+}
+ 
 body{
-    background: #343a40;
+    background: #24282c;
     color: greenyellow;
 }
 
+.bg-element {
+    background-color: rgb(48, 60, 78);
+  } 
+
+img {
+    max-width: 100%;
+}
 .my-text-color {
     color: greenyellow;
 }
