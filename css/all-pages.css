@@ -16,7 +16,22 @@
     --orange: #ffa500;
     --green: #006400;
 }
- 
+
+nav {
+    background-color: #080808;
+}
+
+.social-icon {
+    color: white;
+    border-radius: 25%;
+}
+
+.social-icon:hover {
+    color: white;
+    background-color: rgb(65, 99, 161);
+    border-radius: 25%;
+}
+
 body{
     background: #24282c;
     color: greenyellow;
