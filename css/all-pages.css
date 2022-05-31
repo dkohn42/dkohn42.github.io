@@ -17,6 +17,10 @@
     --green: #006400;
 }
 
+main {
+    max-width : 1500px;
+    margin: auto
+}
 nav {
     background-color: #080808;
 }
@@ -46,4 +50,14 @@ img {
 }
 .my-text-color {
     color: greenyellow;
+}
+
+.page-element {
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+.min-height {
+    min-height: 300px;
 }
