@@ -44,75 +44,101 @@
       </nav>
     </header> 
     <main>
-      <div class="bootstrap-grid px-sm-3">
-        <div class="row mb-4 min-height">
-          <div class="col-lg-4 col-md-6 col-sm-12 ">
+      <div class="px-sm-3 mt-5">
+        <div class="row d-flex mb-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
             <img src="../images/robot.gif" style="justify-content: center;">
           </div>
-          <div class="col-lg-7 col-md-5 col-sm-10">
+          <div class="col-lg-7 col-md-10 col-sm-10">
             <div class="bg-element page-element">
               <p>
                 <h4>Robby the Robot - Q-Learning</h4>
-                Q-Learning is a type a reinforcement learning called Q-Learning. States the robot could precieve are mapped to an action in a Q-table. The condition of 'picking up a can when standing on a can' is given a reward value. Over millions of iterations, these rewards are back-propogated through the table to provide the robot with a learned strategy for every possible state.  arning 'robot' to navigate an area and pickup as many cans as possible. The robot can only precieve what it is standing on and what is immediately to its up, down, left or right direction.
+                Q-Learning is a type a reinforcement learning called Q-Learning. States the robot could 
+                precieve are mapped to an action in a Q-table. The condition of 'picking up a can when 
+                standing on a can' is given a reward value. Over millions of iterations, these rewards
+                are back-propogated through the table to provide the robot with a learned strategy for 
+                every possible state.  arning 'robot' to navigate an area and pickup as many cans as 
+                possible. The robot can only precieve what it is standing on and what is immediately to 
+                its up, down, left or right direction.
               </p>
             </div>
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2">
+          <div class="col-lg-1 col-md-2 col-sm-2">
             <a class="btn project-icon" href="https://github.com/d-kohn/Robot-Q-Learning">
               <i class="fa fa-github fa-4x"></i>
             </a>                                    
           </div>
          </div>
-        <div class="row mb-4 min-height">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+
+        <hr>
+        <div class="row mb-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
             <img src="../images/blackjack.png">
           </div>
-          <div class="col-lg-7 col-md-5 col-sm-10">
+          <div class="col-lg-7 col-md-10 col-sm-10">
             <div class="bg-element page-element">
               <p>
                 <h4>Blackjack - Q-Learning</h4>
-                
+                This is another Q-Learning project, but with a larger state-space. The goal in this project
+                is for the AI to learn to play Blackjack against a dealer. At first the AI is playing completely
+                randomly. As it wins the Q-table begins to fill with back-propogated rewards. Eventually, a
+                the performance of the AI begins to approach a net-zero win loss ratio. Since the odds of
+                winning/losing in Blackjack is around 50/50, this is the best outcome without making a card
+                counting AI. The image left or above shows a final strategy Q-table learned by the AI.
               </p>  
             </div>
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2">
+          <div class="col-lg-1 col-md-2 col-sm-2">
             <a class="btn project-icon" href="https://github.com/d-kohn/AI-Blackjack">
               <i class="fa fa-github fa-4x"></i>
             </a>                                    
           </div>
- 
         </div>
-        <div class="row mb-4 min-height">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+
+        <hr>
+        <div class="row mb-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
             <img src="../images/irc.png">
           </div>
-          <div class="col-lg-7 col-md-5 col-sm-10">
+          <div class="col-lg-7 col-md-10 col-sm-10">
             <div class="bg-element page-element">
               <p>
                 <h4>IRC Chat - Client and Server - RFC Project</h4>
-              
+                For this project, I created an IRC Chat RFC. The protocol standardized communication between
+                a client and server for logins, creating/joining a chat room, and sending a message. The client
+                program, shown in the image, we created to demonstrate the RFC was complete and provided all of
+                the required functionality. The client was written using Python and utilized Websockets and
+                JSON to communicate with the server.
               </p>
             </div>  
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2">
+          <div class="col-lg-1 col-md-2 col-sm-2">
             <a class="btn project-icon" href="https://github.com/d-kohn/IRC-Client">
               <i class="fa fa-github fa-4x"></i>
             </a>                                    
           </div>
          </div>
-        <div class="row mb-4 min-height">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+
+        <hr>
+        <div class="row mb-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
             <img src="../images/chess.png">
           </div>
-          <div class="col-lg-7 col-md-5 col-sm-10">
+          <div class="col-lg-7 col-md-10 col-sm-10">
             <div class="bg-element page-element">
               <p>
-              <h4>Etherium Chess</h4>
-              
+              <h4>Ethereum Chess - Ethereum Smart Contract Development</h4>
+              Using the Ropsten Ethereum Test Blockchain, I deployed a smart contract, written with Vyper. The 
+              smart contract accepted an Ethereum token from each player and stored it for the duration of 
+              the game as well as storing the state of the chess game. Each player interacted with the 
+              Ethereum blockchain to check and update their next move. Once a player was unable to move, or
+              failed to make a move, for 24 hours, then the winner could claim their prize. Using the real
+              Ethereum blockchain to play this would cost about 0.01 ETH, or $20, per move.
+             
             </p>
             </div>
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2">
+          <div class="col-lg-1 col-md-2 col-sm-2">
             <a class="btn project-icon" href="https://gitlab.com/dkohn/bc-f21-darin-kohn-dkohn/-/tree/main/final">
               <i class="fa fa-gitlab fa-3x"></i>
             </a>                                    
