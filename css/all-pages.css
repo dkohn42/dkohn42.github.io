@@ -1,39 +1,37 @@
-:root {
-    --white: #ffffff;
-    --gray1: #333333;
-    --gray2: #555555;
-    --gray3: #cccccc;
-    --gray4: #aaaaaa;
-  
-    --black: #080808;
-    --teal: #006060;
-    --lightteal: #008080;
-    --purple: #800080;
-    --navy: #000080;
-    --cyan: #17a2b8;
-    --violetred: #c71585;
-    --red: #ff0000;
-    --orange: #ffa500;
-    --green: #006400;
-}
-
 main {
+    min-height: 83vh;
     max-width : 1500px;
-    margin: auto
+    margin: auto;
+    margin-top: 20px;
 }
 nav {
     background-color: #080808;
 }
 
-.social-icon {
-    color: white;
-    border-radius: 25%;
+.bg-black {
+    background-color: #080808;
 }
 
-.social-icon:hover {
+.navbar-icon {
     color: white;
-    background-color: rgb(65, 99, 161);
-    border-radius: 25%;
+    border-radius: 100%;
+}
+
+.navbar-icon:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.footer-icon {
+    color: white;
+    border-radius: 100%;
+}
+
+.footer-icon:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
 }
 
 body{
@@ -58,4 +56,3 @@ img {
     padding: 10px;
     margin-bottom: 10px; 
 }
-
