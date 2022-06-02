@@ -5,7 +5,7 @@ console.log(currentpage);
 let header = document.getElementById("header");
 header.innerHTML = `
 <header>
-<nav class="navbar navbar-expand navbar-default fixed-top navbar-dark">
+  <nav class="navbar navbar-expand navbar-default fixed-top navbar-dark">
    <div class="container-fluid">
        <div class="navbar-header">
          <ul class="navbar-nav">
