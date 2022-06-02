@@ -18,6 +18,11 @@ figure {
   width: 250px;
   max-height: 100%;
 }
+
+.caption-color {
+  color:greenyellow;
+}
+
 .pic {
   width: 270px;
 }

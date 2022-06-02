@@ -37,8 +37,9 @@ nav {
 }
 
 body{
+    padding-top: 50px;
     background: #24282c;
-    color: greenyellow;
+    color: rgba(172, 255, 47, 0.651);
 }
 
 .bg-element {
@@ -49,7 +50,7 @@ img {
     max-width: 100%;
 }
 .my-text-color {
-    color: greenyellow;
+    color: rgba(172, 255, 47, 0.651);
 }
 
 .page-element {
