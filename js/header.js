@@ -32,7 +32,7 @@ header.innerHTML = `
           <i class="fa fa-github fa-2x"></i>
           <span class="visually-hidden">Github</span>
         </a>                                    
-        <a class="btn navbar-icon" href="https://www.linkedin.com/in/darin-kohn-895296239/" target="none">
+        <a class="btn navbar-icon" href="https://www.linkedin.com/in/darin-kohn-895296239/">
           <i class="fa fa-linkedin fa-2x"></i>
           <span class="visually-hidden">Linkedin</span>
         </a>
