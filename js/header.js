@@ -8,24 +8,12 @@ header.innerHTML = `
 <header>
   <nav class="navbar navbar-expand navbar-default fixed-top navbar-dark">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="navbar-brand" href="../index.html">Darin Kohn</a>
-          </li>
-          <li class="nav-item">
-            <a id="about" class="nav-link" href="./about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a id="resume" class="nav-link" href="./resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a id="projects" class="nav-link" href="./projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a id="contact" class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
+      <div class="navbar-nav d-flex">
+        <a class="navbar-brand" href="../index.html">Darin Kohn</a>
+        <a id="about" class="nav-link" href="./about.html">About</a>
+        <a id="resume" class="nav-link" href="./resume.html">Resume</a>
+        <a id="projects" class="nav-link" href="./projects.html">Projects</a>
+        <a id="contact" class="nav-link" href="./contact.html">Contact</a>
       </div>
       <div class="icon">
         <a class="btn navbar-icon" href="https://github.com/d-kohn">
