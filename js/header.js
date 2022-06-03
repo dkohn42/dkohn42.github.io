@@ -29,6 +29,7 @@ header.innerHTML = `
   </nav>
 </header> 
 `
+// Index.html path
 if (currentpage === "index") {
     for (let i = 1; i < page_list.length; i++) {
         let nav_item = document.getElementById(page_list[i])
