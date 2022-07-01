@@ -30,7 +30,7 @@ header.innerHTML = `
 </header> 
 `
 // Index.html path
-if (currentpage === "index") {
+if (currentpage === "index" || currentpage === '') {
     for (let i = 1; i < page_list.length; i++) {
         let nav_item = document.getElementById(page_list[i])
         nav_item.href = "./pages/" + page_list[i] + ".html";
